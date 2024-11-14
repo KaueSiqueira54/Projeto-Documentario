@@ -8,7 +8,7 @@ body {
 iframe {
   width: 1200px;
   height: 700px;
-  padding-left: 300px;
+  padding-left: 200px;
   padding-top: 10px;
   background-size: auto;
   background-repeat: no-repeat;
@@ -35,9 +35,10 @@ section {
     background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../assets/images/organizada-sp.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    width: 100%;
     height: 600px;
     padding-top: 60px;
-    border-bottom: 1px solid #ffffff80;
+    border-bottom: 1px solid #ffffff86;
 }
 
 .banner .banner-content{
@@ -115,8 +116,8 @@ section {
     background-size: cover;
     background-image: url("../assets/images/documentario-capa.jpg");
     background-attachment: fixed;
-    border-top: 1px solid #33A8DB80;
-    border-bottom: 1px solid #33A8DB80;
+    border-top: 1px solid #ffffff86;
+    border-bottom: 1px solid #ffffff86;
     padding: 200px;
   }
   
@@ -141,7 +142,7 @@ section {
     padding: 60px 0;
     text-align: center;
     background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
-    border-top: 1px solid #33A8DB80;
+    border-top: 1px solid #ffffff86;
   }
   
   footer .dio-logo {
@@ -149,7 +150,7 @@ section {
   }
   
   footer a {
-    color: #33A8DB;
+    color: #ffffff86;
     font-weight: bold;
     text-decoration: none;
   }
