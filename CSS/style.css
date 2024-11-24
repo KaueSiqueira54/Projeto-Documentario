@@ -8,11 +8,30 @@ body {
 iframe {
   width: 1200px;
   height: 700px;
-  padding-left: 200px;
+  padding-left: 20%;
   padding-top: 10px;
   background-size: auto;
   background-repeat: no-repeat;
   background-position: center;
+  align-items: center;
+}
+
+#botao {
+  text-align: center;
+  padding-top: 75px;
+}
+
+button {
+  color: #d0d0d0;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 16px 32px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  background-color: transparent;
+  border-image: linear-gradient(#b31717, #431616);
+  border-image-slice: 10;
+  border-radius: 30px;
 }
 
 h2 {
@@ -114,7 +133,7 @@ section {
   #transform-world {
     height: 560px;
     background-size: cover;
-    background-image: url("../assets/images/documentario-capa.jpg");
+    background-image: url("../assets/images/capa\ de\ video\ n.jpg");
     background-attachment: fixed;
     border-top: 1px solid #ffffff86;
     border-bottom: 1px solid #ffffff86;
@@ -153,4 +172,13 @@ section {
     color: #ffffff86;
     font-weight: bold;
     text-decoration: none;
+  }
+
+  a {
+    color: #ff0000;
+  }
+
+  h3 {
+    text-align: center;
+    color: #ff0000;
   }
