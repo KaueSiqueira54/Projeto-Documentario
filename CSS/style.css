@@ -5,180 +5,118 @@ body {
     background-color: rgb(4, 4, 4);
 }
 
-iframe {
-  width: 1200px;
-  height: 700px;
-  padding-left: 20%;
-  padding-top: 10px;
-  background-size: auto;
+/* Header */
+
+.banner {
+  background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../assets/images/organizada-sp.jpg');
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
-  align-items: center;
+  width: 50%;
+  height: 200px;
+  border-bottom: 1px solid #ffffff86;
+}
+
+/* Main */
+
+#h2 {
+  width: 50%;
+  text-align: center;
+  padding: 1rem;
+}
+
+h2 {
+  font-size: 0.8rem;
+  color: #ff0000;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-indent: center;
+  text-transform: uppercase;
+} 
+
+#imagem img{
+  width: 50%;
+  height: auto;
+  padding: 0.8rem;
+}
+
+#txt {
+  width: 50%;
+  text-align: center;
+  padding: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+p {
+  font-size: 0.9rem;
+  color: white;
+  text-align: center;
+}
+
+.modules-list {
+  width: 50%;
+
+}
+
+.module {
+  color: rgb(255, 255, 255);
+  width: 80%;
+  margin: 0 auto 14px;
+  border: 1px solid #ff0000;
+  background-color: #560101;
+  padding: 8px;
+  border-radius: 100px;
+  box-shadow: inset -5px 3px 4px rgba(0, 0, 0, .7);
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* Video */
+
+#video {
+  width: 50%;
+  padding: 0.5rem;
 }
 
 #botao {
   text-align: center;
-  padding-top: 75px;
+  width: 50%;
+  padding: 1rem;
 }
 
 button {
   color: #d0d0d0;
-  font-size: 1rem;
+  font-size: 0.8rem;
   font-weight: bold;
-  padding: 16px 32px;
+  padding: 4px 8px;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   background-color: transparent;
   border-image: linear-gradient(#b31717, #431616);
   border-image-slice: 10;
-  border-radius: 30px;
+  
 }
 
-h2 {
-    font-size: 2rem;
-    color: #ff0000;
-    font-weight: bold;
-    letter-spacing: 4px;
-    text-transform: 24px;
-}   
-
-p {
-    color: white;
+a {
+  color: #ff0000;
 }
 
-section {
-    margin: 100px auto;
+#h3{
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  width: 50%;
+  text-align: center;
+  color: #d0d0d0;
 }
 
-.banner {
-    background-image: linear-gradient(rgba(0, 0, 0, .6), rgba(49, 168, 221, .2), rgba(0, 0, 0, .6)), url('../assets/images/organizada-sp.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 600px;
-    padding-top: 60px;
-    border-bottom: 1px solid #ffffff86;
-}
+/* Transform-world */
 
-.banner .banner-content{
-    color: white;
-    width: 600px;
-    margin: auto;
-    text-align: center;
-}
-
-.banner h1 {
-    font-size: 2.5rem;
-    font-weight: 900;
-    text-transform: uppercase;
-    color: transparent;
-    background: -webkit-linear-gradient(#33A8DB, #1472B7);
-    -webkit-background-clip: text;
-}
-
-.banner p {
-    font-size: 1.25rem;
-    margin: 16px 0 24px;
-}
-
-.banner .logo img {
-    margin: auto;
-    width: 100px;
-    height: 80px;
-    object-fit: cover;
-}
-
-.banner .banner-content button {
-    color: #31A8DD;
-    font-size: 1rem;
-    font-weight: bold;
-    padding: 16px 32px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    background-color: transparent;
-    border-image: linear-gradient(#3BA1CD, #1572B7);
-    border-image-slice: 10;
-    border-radius: 30px;
-}
-
-#course-content img{
-  width: 800px;
-  height: auto;
-}
-
-#course-content {
-    width: 800px;
-    text-align: center;
-  }
-  
-  #course-content .modules-list {
-    margin: 24px 0;
-  }
-  
-  #course-content .modules-list .module {
-    color: rgb(255, 255, 255);
-    width: 530px;
-    margin: 0 auto 24px;
-    border: 1px solid #ff0000;
-    background-color: #560101;
-    padding: 16px;
-    border-radius: 100px;
-    box-shadow: inset -5px 6px 8px rgba(0, 0, 0, .7);
-  }
-  
-  #course-content .modules-list .module span {
-    color: #ffffff;
-  }
-  
-  #transform-world {
-    height: 560px;
-    background-size: cover;
-    background-image: url("../assets/images/capa\ de\ video\ n.jpg");
-    background-attachment: fixed;
-    border-top: 1px solid #ffffff86;
-    border-bottom: 1px solid #ffffff86;
-    padding: 200px;
-  }
-  
-  #transform-world p {
-    font-weight: 900;
-    font-size: 2.5rem;
-    text-transform: lowercase;
-    max-width: 250px;
-    text-shadow: 3px 2px #33A8DB;
-  }
-  
-  #professional-challenges {
-    text-align: center;
-    width: 800px;
-  }
-  
-  #professional-challenges img {
-    margin: 32px 0;
-  }
-  
-  footer {
-    padding: 60px 0;
-    text-align: center;
-    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
-    border-top: 1px solid #ffffff86;
-  }
-  
-  footer .dio-logo {
-    width: 300px;
-  }
-  
-  footer a {
-    color: #ffffff86;
-    font-weight: bold;
-    text-decoration: none;
-  }
-
-  a {
-    color: #ff0000;
-  }
-
-  h3 {
-    text-align: center;
-    color: #ff0000;
-  }
+/* #transform-world {
+  width: 100%;
+  height: 560px;
+  background-size: cover;
+  background-image: url("../assets/images/capa\ de\ video\ n.jpg");
+  background-attachment: inherit;
+  border-top: 1px solid #ffffff86;
+  border-bottom: 1px solid #ffffff86;
+  background-position: left;
+} */
